@@ -26,7 +26,7 @@ for y,row in enumerate(matrix):
             radius=0 if finder(x,y) else 3
             d.rounded_rectangle((x*module,y*module,(x+1)*module-1,(y+1)*module-1),radius=radius,fill=ink)
             svg_modules.append(f'<rect x="{x*module}" y="{y*module}" width="{module}" height="{module}" rx="{radius}"/>')
-width=max(1200,size+240);height=width+340;x=(width-size)//2;y=230
+width=max(1200,size+240);height=max(width+100,size+490);x=(width-size)//2;y=230
 poster=Image.new('RGB',(width,height),navy);draw=ImageDraw.Draw(poster)
 def font(size,serif=False):
     paths=['C:/Windows/Fonts/msyh.ttc','C:/Windows/Fonts/simhei.ttf'] if not serif else ['C:/Windows/Fonts/georgia.ttf']
