@@ -1,4 +1,4 @@
-# 午夜落星 · Clockwork Observatory
+# 重力旋钮 · Clockwork Observatory
 
 [手机直接试玩](https://ly99lll.github.io/clockwork-observatory/) · [下载二维码 PNG](dist/share/clockwork-qr.png) · [下载矢量 SVG](dist/share/clockwork-qr.svg)
 
