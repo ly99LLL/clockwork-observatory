@@ -1,0 +1,8 @@
+.openai/
+__pycache__/
+*.pyc
+clockwork-full-tower.jpg
+screenshots/
+artifacts/
+*.zip
+*.tar.gz
